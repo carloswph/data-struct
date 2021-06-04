@@ -1,0 +1,16 @@
+{
+    "name": "carloswph/data-struct",
+    "description": "Functions to easily build advanced data structures in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php-ds/php-ds": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DataStruct\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
